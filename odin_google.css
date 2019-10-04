@@ -1,33 +1,23 @@
 html, body {
-	display: block;
-	height: 100%;
-	margin: 0;
-}
-
-
-
-	
+margin: 0;	
 }
 
 h1 {
-	
-
 }
 
 h3 {
-	
 }
 
 div {
-	margin: auto 0;
 }
 
 input {
-	width: 90%
+	width: 50%;
+	border-radius: 10px;
+	height: 27px;
 
 }
 .Buttons {
-
 	
 }
 
@@ -36,28 +26,54 @@ input {
 }
 
 .Search {
-	display: block;
-
-
-	
-	margin: 0 auto;
-	padding: 10%;
-	border: 10%;
-
-}
+	margin-top: 280px;
+	margin-left: 10%;}
 
 .logo {
-
-	margin:0 auto;
-	border: 10%;
-
-	padding: 10px;
-	padding-left: 200px;
+margin-left: 30%;
 }
 
 .SearchBar {
-
-
-border: solid grey 2px;
-border-radius: 10px;
+margin-left: 22%;
 }
+
+.SearchButtons {
+	margin-top: 20px;
+	font-size: 11pt;
+	font-style: normal;
+	font-family: Arial, "Helvetica";
+	font-weight: lighter;
+	color: #d7d9db;
+}
+
+.SearchPress{
+
+	margin-left: 33%;
+	background: #e8eaeb;
+	width: 50px;
+	color: #404040;
+	padding: 8px 8px 8px 8px;
+	border-radius: 8px;
+
+
+}
+
+.Lucky{
+	margin-left: 25px;
+	background: #e8eaeb;
+	color: #404040;
+	padding: 8px 8px 8px 8px;
+	border-radius: 8px;
+
+}
+
+.BottomButtons {
+
+	margin-top: 240px;
+
+	background: lightgrey;
+	height: 40px;
+	width: 100%;
+
+}
+
