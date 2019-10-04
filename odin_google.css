@@ -1,9 +1,29 @@
-body {
-	display:grid;
+html, body {
+	display: block;
+	height: 100%;
+	margin: 0;
+}
+
+
+
+	
 }
 
 h1 {
 	
+
+}
+
+h3 {
+	
+}
+
+div {
+	margin: auto 0;
+}
+
+input {
+	width: 90%
 
 }
 .Buttons {
@@ -13,4 +33,31 @@ h1 {
 
 .Buttons .About_B {
 
+}
+
+.Search {
+	display: block;
+
+
+	
+	margin: 0 auto;
+	padding: 10%;
+	border: 10%;
+
+}
+
+.logo {
+
+	margin:0 auto;
+	border: 10%;
+
+	padding: 10px;
+	padding-left: 200px;
+}
+
+.SearchBar {
+
+
+border: solid grey 2px;
+border-radius: 10px;
 }
