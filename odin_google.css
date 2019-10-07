@@ -1,14 +1,20 @@
-html, body {
-margin: 0;	
+html body {
+	margin: 0;
 }
 
 h1 {
 }
 
 h3 {
+	padding-top: 10px;
 }
 
 div {
+}
+
+a {
+	text-decoration: none;
+	color: black;
 }
 
 input {
@@ -17,16 +23,47 @@ input {
 	height: 27px;
 
 }
-.Buttons {
+.TopButtons {
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: lighter;
+	color: black;
+
 	
 }
 
-.Buttons .About_B {
+.TopButtons .About_B {
+	padding-left: 50px;
 
 }
 
+.About_B{
+	color: black;
+	padding-right: 20px;
+
+}
+
+.Store_B {
+	padding-right: 70%;
+}
+
+.Gmail_B{
+	padding-right: 20px;
+}
+
+.Images_B {
+	padding-right: 20px;
+}
+
+/*.Other_B {
+	display: inline-block;
+	padding: 5px 20px;
+
+	background-color: grey;
+}*/
+
 .Search {
-	margin-top: 280px;
+	margin-top: 200px;
 	margin-left: 10%;}
 
 .logo {
@@ -48,7 +85,7 @@ margin-left: 22%;
 
 .SearchPress{
 
-	margin-left: 33%;
+	margin-left: 30%;
 	background: #e8eaeb;
 	width: 50px;
 	color: #404040;
@@ -69,8 +106,7 @@ margin-left: 22%;
 
 .BottomButtons {
 
-	margin-top: 240px;
-
+	margin-top: 235px;
 	background: lightgrey;
 	height: 40px;
 	width: 100%;
